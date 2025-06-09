@@ -1,0 +1,144 @@
+.menu-section {
+  padding: 1rem 2rem;
+}
+
+.menu-category {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.8rem;
+  color: #6a1b9a;
+}
+
+.menu-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; /* <---- This centers the items horizontally */
+}
+
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start; /* aligns cards from left to right */
+}
+
+.menu-card {
+  background-color: #f9f6fc;
+  border-radius: 10px;
+  width: 270px;
+  padding: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  font-size: 0.9rem;
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-card h4 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.menu-card p {
+  margin: 0.2rem 0;
+  color: #333;
+  font-size: 0.85rem;
+}
+
+.menu-card .badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 12px;
+  background-color: #eee;
+  margin-top: 4px;
+}
+
+.menu-card .add-btn {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-to-cart-btn {
+  background-color: #75349e; /* Deep purple */
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 8px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #4a148c;
+}
+.menu-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  margin-right: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* Specific styles for tag types */
+.menu-tag.new {
+  background-color: #2196f3; /* Blue */
+}
+
+.menu-tag.spicy {
+  background-color: #e53935; /* Red */
+}
+
+.menu-tag.veg {
+  background-color: #43a047; /* Green */
+
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.menu-card {
+  background: #fbf6ff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.menu-card:hover {
+  transform: translateY(-4px);
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
